@@ -1,7 +1,6 @@
 . ..\utils\make-exercise-repo.ps1
 
 Set-Content -Value "" -Path greeting.txt
-cd exercise
 git add greeting.txt
 git commit -m "Add file greeting.txt"
 
