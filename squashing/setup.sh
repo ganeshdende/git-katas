@@ -6,9 +6,9 @@ source ../utils/utils.sh
 
 make-exercise-repo
 
-touch alsoafile.txt
+touch file.txt
 
-git add alsoafile.txt
+git add file.txt
 git commit -m "initial file"
 
 echo "This is a relevant fact\n" > file.txt
